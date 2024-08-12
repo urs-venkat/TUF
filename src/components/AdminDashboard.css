@@ -1,0 +1,103 @@
+src/AdminDashboard.css
+
+.admin-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .flashcard-form {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .flashcard-form h3 {
+    margin-top: 0;
+  }
+  
+  .flashcard-form div {
+    margin-bottom: 10px;
+  }
+  
+  .flashcard-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .flashcard-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .flashcard-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .flashcard-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .flashcard-list {
+    margin-top: 20px;
+  }
+  
+  .flashcard-list h3 {
+    margin-top: 0;
+  }
+  
+  .flashcard-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .flashcard-list li {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .flashcard-list div {
+    margin-bottom: 5px;
+  }
+  
+  .flashcard-list button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .flashcard-list button:hover {
+    background-color: #c82333;
+  }
+  
+  .flashcard-list button.edit {
+    background-color: #007bff;
+  }
+  
+  .flashcard-list button.edit:hover {
+    background-color: #0056b3;
+  }
+  
